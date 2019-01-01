@@ -4,15 +4,15 @@ using namespace std;
 class volume
 {
   public:
-  int volum(int x)
+  int vol(int x)
   {
     return x*x*x;
   }
-  int volum(float r)
+  int vol(float r)
   {
     return (4*pi*r*r*r)/3);
   }
-  int volum(int h,float r)
+  int vol(int h,float r)
   {
     return (pi*r*r*h);
   }
@@ -28,7 +28,7 @@ int main()
  cin ch;
  if(ch==1)
  {
- cout<<"Volume Of Cube is:"<<v1.volum()
+ cout<<"Volume Of Cube is:"<<v1.vol();
  }
 }
 
